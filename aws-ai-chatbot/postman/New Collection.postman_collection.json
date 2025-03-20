@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "1fe5555d-6200-4f98-9750-97eccff40d77",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43302016",
+		"_collection_link": "https://universal-sunset-153833.postman.co/workspace/Team-Workspace~c1e4565e-cbd1-4ffb-8f98-b88933ce69e3/collection/43302016-1fe5555d-6200-4f98-9750-97eccff40d77?action=share&source=collection_link&creator=43302016"
+	},
+	"item": [
+		{
+			"name": "https://k5tazqaxw1.execute-api.us-east-1.amazonaws.com/dev/ask",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"prompt\": \"Help me write a good resume\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://k5tazqaxw1.execute-api.us-east-1.amazonaws.com/dev/ask",
+					"protocol": "https",
+					"host": [
+						"k5tazqaxw1",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
